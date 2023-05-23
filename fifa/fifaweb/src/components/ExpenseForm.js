@@ -15,7 +15,7 @@ import {
 } from "firebase/storage";
 import { storage } from "./firebase";
 import { v4 } from "uuid";
-
+import axios from 'axios';
 
 
 const ExpenseForm = (props) =>{
@@ -36,10 +36,14 @@ const ExpenseForm = (props) =>{
 
 
     };
-    
-
-
-
+    const posting = ()=>{
+    const url = "http://praktykaczynimistrza.pl/phpmyadmin.php";
+    let fData = new FormData();
+    fData.append('player',player);
+    fData.append('teamName',teamName);
+    fData.append('id',v4());
+    axios.post(url,fData)
+  }
     const [imageUpload, setImageUpload] = useState(null);
     const [imageUrls, setImageUrls] = useState([]);
   
@@ -96,7 +100,7 @@ const ExpenseForm = (props) =>{
               setImageUpload(event.target.files[0]);
             }} className= "input-field"hidden
           /><MdCloudUpload></MdCloudUpload></form>
-          <button type="submit"onClick={()=>{uploadFile();    props.newTeam(player,teamName)
+          <button type="submit"onClick={()=>{uploadFile();    props.newTeam(player,teamName); posting();
 }} className='new-expense__actions'> Dodaj drużynę</button>
           
         </div>
