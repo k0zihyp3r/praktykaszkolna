@@ -1,0 +1,132 @@
+{
+  "bookstore": {
+    "book": [
+      {
+        "id": "1",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "year": "1997"
+      },
+      {
+        "id": "2",
+        "title": "Harry Potter and the Chamber of Secrets",
+        "author": "J.K. Rowling",
+        "year": "1998"
+      },
+      {
+        "id": "3",
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J.K. Rowling",
+        "year": "1999"
+      },
+      {
+        "id": "4",
+        "title": "Harry Potter and the Goblet of Fire",
+        "author": "J.K. Rowling",
+        "year": "2000"
+      },
+      {
+        "id": "5",
+        "title": "Harry Potter and the Order of the Phoenix",
+        "author": "J.K. Rowling",
+        "year": "2003"
+      },
+      {
+        "id": "6",
+        "title": "Harry Potter and the Half-Blood Prince",
+        "author": "J.K. Rowling",
+        "year": "2005"
+      },
+      {
+        "id": "7",
+        "title": "Harry Potter and the Deathly Hallows",
+        "author": "J.K. Rowling",
+        "year": "2007"
+      },
+      {
+        "id": "8",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": "1960"
+      },
+      {
+        "id": "9",
+        "title": "1984",
+        "author": "George Orwell",
+        "year": "1949"
+      },
+      {
+        "id": "10",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": "1925"
+      },
+      {
+        "id": "11",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year": "1813"
+      },
+      {
+        "id": "12",
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "year": "1866"
+      },
+      {
+        "id": "13",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "year": "1951"
+      },
+      {
+        "id": "14",
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "year": "1932"
+      },
+      {
+        "id": "15",
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "year": "1954"
+      },
+      {
+        "id": "16",
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": "1937"
+      },
+      {
+        "id": "17",
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "year": "1945"
+      },
+      {
+        "id": "18",
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "year": "1950"
+      },
+      {
+        "id": "19",
+        "title": "The Little Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "year": "1943"
+      },
+      {
+        "id": "20",
+        "title": "Lord of the Flies",
+        "author": "William Golding",
+        "year": "1954"
+      },
+      {
+        "id": "21",
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel García Márquez",
+        "year": "1967"
+      }
+	  ]
+	}
+}
