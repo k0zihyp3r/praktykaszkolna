@@ -64,19 +64,27 @@ elif x=='2':
 elif x=="3":
     plik.close()
     title=input("Podaj tytuł: ")
-    author=input("Podaj autora: ")
-    year=input("Podaj rok wydania: ")
-    data['bookstore']['book'].append({
-      "id": str(id+1),
-      "title": title,
-      "author": author,
-      "year": str(year)
-    })
+    k=0
+    l=0
+    for k in range(length):
+        if title == data['bookstore']['book'][k]['title']:
+            print("W bibliotece już jest taka książka, spróbuj ponownie!")
+            l+=1
 
-    with open(r"C:\Users\kacperkozlowski\Downloads\bookstore.json", 'w') as json_file:
-        json.dump(data, json_file,
-                  indent=4,
-                  separators=(',', ': '))
-    print("Dodano nowe dane do pliku json!")
+    if l==0:
+        author=input("Podaj autora: ")
+        year=input("Podaj rok wydania: ")
+        data['bookstore']['book'].append({
+          "id": str(id+1),
+          "title": title,
+          "author": author,
+          "year": str(year)
+        })
+
+        with open(r"C:\Users\kacperkozlowski\Downloads\bookstore.json", 'w') as json_file:
+            json.dump(data, json_file,
+                      indent=4,
+                      separators=(',', ': '))
+        print("Dodano nowe dane do pliku json!")
 else:
     print("Błąd")
